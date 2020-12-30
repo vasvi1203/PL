@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Info</title>
+<style>
+body {
+background-image:url('https://christianacare.org/images/WLM/ed.jpg');
+background-attachment:fixed;
+background-size:cover;
+}
+.field {
+font-weight:bold;
+font-size:20px;
+color:yellow;
+width:500px;
+margin-left:30%;
+}
+.head {
+border-bottom:3px solid black;
+color:black;
+font-size:25px;
+}
+</style>
+</head>
+
+<body style = "text-align:center"><b>
+<section style="background:rgba(0,0,0,0.1);height:100%;width:100%; border:4px ridge white;"><br>
+<img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Fortis_Healthcare_logo.svg/1200px-Fortis_Healthcare_logo.svg.png" alt = "Fortis" width = "200px" height = "80px"><br><br>
+<form action = "Medical History.html">
+	<fieldset class="field">
+	<legend class="head">Patient Info</legend>
+	Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "Name">
+	<br><br>
+	Phone Number:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "tel" name = "Phone no.">
+	<br><br>
+	E-Mail:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "email" name = "email">
+	<br><br>
+	Gender:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "radio" name = "gender" value = "Male">Male
+	<input type = "radio" name = "gender" value = "Female">Female
+	<input type = "radio" name = "gender" value = "Others">Others<br><br>
+	Date Of Birth:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "date" name = "bday">
+	<br><br>
+	Marital Status:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select name = "Marital Status">
+		<option value = "Single">Single</option>
+		<option value = "Married">Married</option>
+		<option value = "Divorced">Divorced</option>
+		<option value = "Legally Separated">Legally Separated</option>
+		<option value = "Widowed">Widowed</option>
+	</select><br><br>
+	Address:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "Address">
+			<br><br>
+			City:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "City">
+			<br><br>
+			State/Province:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "State">
+			<br><br>
+			Postal/Zip Code:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "Postal">
+			<br><br>
+	</fieldset>
+<br><br>
+<fieldset class="field">	
+	<legend class = "head">In Case of Emergency:</legend>
+	Emergency Contact:&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "Name">
+	<br><br>
+	Relationship:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "text" name = "Relationship">
+	<br><br>
+	Contact Number:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type = "tel" name = "Number">
+	<br><br>
+	<input type = "submit" name = "Submit">
+</fieldset>
+</b><br></body>
+</html>
